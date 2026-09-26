@@ -86,7 +86,7 @@ export default function Hero({ onScrollDown }) {
             <div className="hero-portrait-glow" aria-hidden="true" />
             <img
               className="hero-portrait-img"
-              src="/riya-hero.jpeg"
+              src={`${import.meta.env.BASE_URL}riya-hero.jpeg`}
               alt="Riya Savaliya — Aspiring Full Stack Developer"
               loading="eager"
             />

@@ -69,7 +69,7 @@ export default function Navbar({ onNavigate }) {
         >
           <img
             className="brand-logo-img"
-            src="/rs-logo.jpg"
+            src={`${import.meta.env.BASE_URL}rs-logo.jpg`}
             alt="RS Logo"
           />
         </a>
